@@ -1,10 +1,10 @@
 # carCrash_case_study
 
-**Dataset:**
+### Dataset:
 
 Data Set folder has 6 csv files. Please use the data dictionary (attached in the mail) to understand the dataset and then develop your approach to perform below analytics.
 
-**Analytics:**
+### Analytics:
 Application should perform below analysis and store the results for each analysis.
 Analytics 1: Find the number of crashes (accidents) in which number of persons killed are male?
 Analysis 2: How many two wheelers are booked for crashes? 
@@ -15,7 +15,7 @@ Analysis 6: Among the crashed cars, what are the Top 5 Zip Codes with highest nu
 Analysis 7: Count of Distinct Crash IDs where No Damaged Property was observed and Damage Level (VEH_DMAG_SCL~) is above 4 and car avails Insurance
 Analysis 8: Determine the Top 5 Vehicle Makes where drivers are charged with speeding related offences, has licensed Drivers, used top 10 used vehicle colours and has car licensed with the Top 25 states with highest number of offences (to be deduced from the data)
 
-**Expected Output:**
+### Expected Output:
 Develop an application which is modular & follows software engineering best practices (e.g. Classes, docstrings, functions, config driven, command line executable through spark-submit)
 Code should be properly organized in folders as a project.
 Input data sources and output should be config driven
@@ -23,7 +23,7 @@ Code should be strictly developed using Data Frame APIs (Do not use Spark SQL)
 Share the entire project as zip or link to project in GitHub repo.
 
 
-**How to run in spark submit :**
+### How to run in spark submit :
 1.Clone the repository to your location
 2.In cmd line, ***cd carCrash_case_study*** , go the the directory .
 3.Run the command : 
